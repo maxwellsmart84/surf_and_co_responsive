@@ -131,6 +131,10 @@ section > p {
   font-family: Arial, sans-serif;
 }
 
+#section-footer li {
+  display:inline-block;
+}
+
 /***************************
 SIDE BAR
 ****************************/
