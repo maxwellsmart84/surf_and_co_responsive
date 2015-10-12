@@ -161,6 +161,10 @@ aside {
   border-radius:100%;
   top: 10px;
 }
+#aside-header p {
+  margin-left: 25%;
+
+}
 #aside-header ul {
   position:relative;
   left:5%;
