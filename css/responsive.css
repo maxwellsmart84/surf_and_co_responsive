@@ -216,8 +216,13 @@ SECTION
   }
   footer {
     background-color: navy;
-    height: 300px;
+    height: 200px;
     width: 100%;
+    font-size: 1.5em;
+  }
+
+  footer .greytext:nth-child(2) {
+    display:block;
   }
 
 }

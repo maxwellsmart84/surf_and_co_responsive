@@ -336,6 +336,10 @@ footer {
   clear:both;
 }
 
+footer .greytext:nth-child(2) {
+  display: none;
+}
+
 
 
 /***************************
