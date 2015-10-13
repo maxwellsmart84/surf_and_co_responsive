@@ -158,37 +158,66 @@ SECTION
   aside section {
     display:none;
   }
-#photo-footer-nav {
 
+  #container-res-bot {
+    width:85%;
+    height:100%;
+    margin:0 auto;
+  }
+
+  #photo-footer-title {
+    font-family:"Oswald",sans-serif;
+    font-size: 2.37em;
+    margin-bottom:  8%;
+  }
+
+  #photo-footer-nav {
+      display: inline-block;
+      width: 25%;
+      position: relative;
+      margin-left: 2%;
+  }
+
+.tinted {
+  display: none;
 }
 
-
   #photo-banner1 {
-    position: absolute;
+    position: relative;
+    display: block;
     width: 100%;
-    height: 100%;
-    margin: auto;
+    margin: 6% 0;
+    height: 300px;
   }
 
   #photo-banner2 {
-    position: absolute;
+    position: relative;
+    display: block;
     width: 100%;
-    height: 100%;
-    margin: auto;
+    margin: 6% 0;
+    height: 300px;
   }
 
   #photo-banner3 {
-    position: absolute;
+    position: relative;
+    display: block;
     width: 100%;
-    height: 100%;
-    margin: auto;
+    margin: 6% 0;
+    height: 300px;
   }
 
   #photo-banner4 {
-    position: absolute;
+    margin:0 0 0 0;
+    position: relative;
+    display: block;
     width: 100%;
-    height: 100%;
-    margin: auto;
+    margin: 6% 0;
+    height: 300px;
+  }
+  footer {
+    background-color: navy;
+    height: 300px;
+    width: 100%;
   }
 
 }
